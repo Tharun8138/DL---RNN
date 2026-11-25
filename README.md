@@ -3,7 +3,11 @@
 ## AIM
 To develop a Recurrent Neural Network (RNN) model for predicting stock prices using historical closing price data.
 
-## Problem Statement and Dataset
+## Problem Statement and Dataset :
+
+Problem Statement: To predict future stock closing prices using a Recurrent Neural Network (RNN) based on historical stock price data.
+
+Dataset: trainset.csv and testset.csv, containing historical stock market data. The Close column is used for training and testing the prediction model.
 
 
 
@@ -34,9 +38,9 @@ Predict on test data, plot actual vs. predicted prices.
 
 ### Name : THARUN V
 
-### Register Number:212224230290
+### Register Number : 212224230290
 
-```
+```python
 
 import numpy as np
 import pandas as pd
@@ -168,19 +172,16 @@ print(f'Actual Price: {actual_prices[-1]}')
 ### OUTPUT
 
 ## Training Loss Over Epochs Plot
+<img width="715" height="822" alt="image" src="https://github.com/user-attachments/assets/77d5a087-4fe5-4f41-9851-d016207f09f3" />
 
-<img width="642" height="322" alt="image" src="https://github.com/user-attachments/assets/17c9eaf4-f58a-4c3b-bb6c-7aaa4fe7e3ce" />
-
-<img width="602" height="397" alt="image" src="https://github.com/user-attachments/assets/40abc90c-fb0d-48d4-ab19-c57c88568cd7" />
-
+<img width="881" height="558" alt="image" src="https://github.com/user-attachments/assets/1a22f4b5-e3d2-4666-a3f7-d22cc09b05d8" />
 
 
 ## True Stock Price, Predicted Stock Price vs time
 
 ### Predictions
 
-<img width="845" height="515" alt="image" src="https://github.com/user-attachments/assets/2d167328-5e12-4fe8-8aa2-2023739edb84" />
-
+<img width="235" height="40" alt="image" src="https://github.com/user-attachments/assets/1b3db62c-d968-464b-85cb-0d15706e2ed5" />
 
 
 ## RESULT
